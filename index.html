@@ -4,10 +4,98 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Lista de atores</title>
     <script src="index.js"></script>
+    <link rel="stylesheet" href="style.css">
+
+
+
 </head>
+
 <body>
     
+    <header>     <!---cabeçalho  ---->
+        <h1>Lista de Atores</h1>
+    
+    </header>
+    <main>
+        <br>
+        <br>
+        <section class="Buscar">
+           
+            <input id="searchbar" type="text" class="nome" placeholder="Pesquise aqui" name="search">
+            <button type="submit" onclick="todosatores()">Pesquisar</button>
+
+
+
+
+
+
+        <!-- <input id="searchbar" onkeyup="search_atores()" type="text" class="nome" placeholder="Pesquise aqui" name="search"> -->
+        <!-- <button >Buscar</button> -->
+        <!-- <button onclick="button-buscar" onclick="buscaAtor(event)">Buscar</button> -->
+        </section>
+        <br>
+        <br>
+        
+    
+            <div class="container" >
+                
+                <section>
+                    <li class="todosatores">
+                    <article class="Chris-Hemsworth" id="ator-1">
+                        <img src="img/chris-hemsworth-medium.png"  alt="ChrisHemsworth">
+                        <ul class="textoator">
+                            <li>Nome: <a href="https://www.adorocinema.com/personalidades/personalidade-162038/" target="_blank">Chris Hemsworth</a></li>
+                            <li>Idade: 39 anos</li>
+                            <li>Atuou como Super-Heroi: Sim</li>
+                            <li>Filmes que atuou: Thor,Vingadores,Resgate</li>
+            
+                        </ul>
+                    </article>
+                    </li>
+                    <br>
+                    <li class="todosatores">
+                    <article class="Tom-Cruise" id="ator-2">
+                        <img src="img/5179819.png"  alt="TomCruise">
+                        <ul class="textoator">
+                            <li>Nome: <a href="https://www.adorocinema.com/personalidades/personalidade-1722/" target="_blank">Tom Cruise</a></li>
+                            <li>Idade: 60 anos</li>
+                            <li>Atuou como Super-Heroi: Não</li>
+                            <li>Filmes que atuou: Top Gun,Missão Impossível,A Múmia</li>
+            
+                        </ul>
+                    </article>
+                   </li>
+                    <br>
+                    <li class="todosatores">
+                    <article class="Robert-Downey" id="ator-3">
+                        <img src="img/robert.png"  alt="RobertDowney" >
+                        <ul class="textoator">
+                            <li>Nome: <a href="https://www.adorocinema.com/personalidades/personalidade-10976/" target="_blank" >Robert Downey</a></li>
+                            <li>Idade: 57 anos</li>
+                            <li>Atuou como Super-Heroi: Sim</li>
+                            <li>Filmes que atuou: Vingadores,Homem De Ferro,Dolittle</li>
+            
+                        </ul>
+                    </article>
+                    </li>
+
+                    
+                </section>
+            
+            </div>
+
+    </main>
+ 
+   
+    <footer>
+        <a href="https://github.com/Adrianaramss">
+             <img src="img/github_PNG80 (2).png"  alt="logogit"></a>
+        <a href="https://www.linkedin.com/in/adriana-ramos-995668145/">
+            <img src="img/174857 (1).png" alt="logolinkedin">
+                </a>
+          <p>Desenvolvido por Adriana</p>
+    </footer>
 </body>
 </html>

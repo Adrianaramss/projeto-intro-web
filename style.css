@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 5vh 1fr 5vh;
+}
+
+header {
+  background-color:#897FBA ;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 50px;
+  color: white;
+}
+main{
+    height: 150vh;
+    background-color: #F2F2F2;
+}
+
+
+
+footer {        /*configuração footer*/
+    width: 10px;
+    height: 70px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #282830;
+    color: white;
+    text-align: center;
+    font-family: Arial;
+    padding: 1px;
+      
+    
+}
+
+footer img{    /* footer da logo*/
+    width: 40px;
+    height: 40px;
+    
+    
+}
+
+
+input{               /*caixa pesquisa*/
+    display: block;  
+    margin-left: auto;
+    margin-right: auto;
+    width: 240px;
+    height: 25px;
+    margin-bottom:5px;
+   ;
+    
+    
+    
+    
+
+    
+}
+button{          /*botão*/
+    display: block;  
+    margin-left:auto;
+    margin-right: auto;
+    width: 170px;
+    height: 20px;
+    justify-content: space-around;
+    
+}
+
+
+li{               /*tirar pontos lista não ordenada*/
+    list-style: none;
+}
+
+
+.Tom-Cruise, .Chris-Hemsworth, .Robert-Downey{   /* configuração imagens 1/2/3*/
+    display: flex;
+    width: 70px;
+    height: 200px;
+
+    
+ } 
+
+ .textoator {    /* configuração texto 1/2/3*/
+    color: black;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 32px;
+    padding: 27px;
+    font-size: medium;
+    
+
+ }
+
+  .Tom-Cruise, .Chris-Hemsworth, .Robert-Downey{        
+    border: 1px solid  #897FBA;
+    background-color: #897FBA;
+    width: 671px;
+    padding: 11px;
+    margin-left:auto;
+    margin-right: auto;
+    border-radius: 21px;
+    height: 220px;
+    
+    
+ }  
+
+  /* responsabilidade */
+
+
+@media screen and (min-device-width: 320px) and (max-device-width: 480px) {
+header{
+  width: 100%;
+  height: 10%;
+  
+}
+.Chris-Hemsworth,.Robert-Downey,.Tom-Cruise {
+display: flex;
+flex-direction: column;
+width: 70vw;
+height: 70vh;
+text-align: center;
+
+}
+main{
+height: 250vh;
+}
+input{
+    margin-bottom:5px; 
+}
+
+}
+
+
+@media screen and (min-device-width: 470px) and (max-device-width: 800px) {
+    header{
+        width: 100%;
+        height: 20vh;
+      }
+.Chris-Hemsworth,.Robert-Downey,.Tom-Cruise {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+     height: 20vh;
+}
+ 
+input{
+    margin-bottom:5px; 
+}
+.textoator{
+    margin-top: 50px;
+    padding: 27px;
+}
+
+}
