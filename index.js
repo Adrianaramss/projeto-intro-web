@@ -1,10 +1,28 @@
 // -----------------------semana1-------------------------------------------
 
+
+const nome1="Chris Hemsworth";
+const idade1=39;
+const atuoucomosuperheroi1=true;
+
+
+
+const nome2="Tom Cruise";
+const idade2=60;
+const atuoucomosuperheroi2=false;
+
+
+
+
+const nome3 = "Robert Downey";
+const idade3= 57;
+const atuoucomosuperheroi3= true;
+
+
+
+
 // 3. Faça um cálculo de média, entre os valores numéricos respectivos de cada item.
 //  Imprima o valor da média utilizando um console.log. Guarde este valor em uma const;
-
-// const guardamédia =  ((ator1.idade + ator2.idade+ator3.idade) / 3)
-// console.log("O valor da média é ", (guardamédia))
 
 // 4. Com um console.log, imprima o resultado de uma operação lógica que checa se todos os 
 // valores de variáveis booleanas criadas até aqui são verdadeiras.
@@ -15,29 +33,28 @@
 // 5.Crie pelo menos mais uma característica para o item que você criou. Esta característica deve ser um array.
 //  Mantenha o tipo de dado do array criado sempre o mesmo, isto é, se é um array de strings, só deve receber strings
 
-//  const arrayfilmesqueparticipou1 = ["Thor","Vingadores","Resgate"]  /// ATOR CHRIS HEMSWORTH
-//  const arrayfilmesqueparticipou2 = ["Top Gun", "Missão Impossível", "A Múmia"]  //ATOR TOM CRUISE
-//  const arrayfilmesqueparticipou3 = ["Vingadores","Homem De Ferro","Dolittle"]   //ATOR ROBERT DOWNEY 
-
+ const arrayfilmesqueparticipou1 = ["Thor","Vingadores","Resgate"]  /// ATOR CHRIS HEMSWORTH
+ const arrayfilmesqueparticipou2 = ["Top Gun", "Missão Impossível", "A Múmia"]  //ATOR TOM CRUISE
+ const arrayfilmesqueparticipou3 = ["Vingadores","Homem De Ferro","Dolittle"]   //ATOR ROBERT DOWNEY 
 
 // 6. Exiba um relatório utilizando console.log(), mostrando todos os dados de cada um dos itens criados até aqui
 //   1. O log deve exibir o dado de nome, título ou afim sempre em LETRAS MAIÚSCULAS, como no exemplo abaixo.
+console.log("👇Relatório impresso no console ")
+ console.log( nome1.toUpperCase())
+ console.log ("idade:" +  idade1 )
+ console.log ("Atuou como super-héroi?" + atuoucomosuperheroi1)
+ console.log ("Filmes que Atuou?" + arrayfilmesqueparticipou1)
 
-//  console.log( nome1.toUpperCase())
-//  console.log ("idade:" +  idade1 )
-//  console.log ("Atuou como super-héroi?" + atuoucomosuperheroi1)
-//  console.log ("Filmes que Atuou?" + arrayfilmesqueparticipou1)
 
+ console.log( nome2.toUpperCase())
+ console.log ("idade:" +  idade2 )
+ console.log ("Atuou como super-héroi?" + atuoucomosuperheroi2)
+ console.log ("Filmes que Atuou?" + arrayfilmesqueparticipou2)
 
-//  console.log( nome2.toUpperCase())
-//  console.log ("idade:" +  idade2 )
-//  console.log ("Atuou como super-héroi?" + atuoucomosuperheroi2)
-//  console.log ("Filmes que Atuou?" + arrayfilmesqueparticipou2)
-
-//  console.log( nome3.toUpperCase())
-//  console.log ("idade:" +  idade3 )
-//  console.log ("Atuou como super-héroi?" + atuoucomosuperheroi3)
-//  console.log ("Filmes que Atuou?" + arrayfilmesqueparticipou3)
+ console.log( nome3.toUpperCase())
+ console.log ("idade:" +  idade3 )
+ console.log ("Atuou como super-héroi?" + atuoucomosuperheroi3)
+ console.log ("Filmes que Atuou?" + arrayfilmesqueparticipou1)
 
 //-----------------------semana2-------------------------------------------
 //============ Ator 1 =====================================
@@ -73,8 +90,8 @@ ator3 = {
 const atores = []  /// array para guardar objetos
 
 //adiconar objetos ao array 
-atores.push(ator1, ator2, ator3)
-console.log(atores)
+// atores.push(ator1, ator2, ator3)
+// console.log(atores)
 
 //============ verificação Ator 1/2/3/ =======================
 
@@ -199,22 +216,6 @@ console.log(atores)
 /// semana 6////////////////////////////////////////
 
 
-
-// function search_atores() {
-//     let input = document.getElementById('searchbar').value
-//     input=input.toLowerCase();
-//     let x = document.getElementsByClassName("todosatores");
-      
-//     for (i = 0; i < x.length; i++) { 
-//         if (!x[i].innerHTML.toLowerCase().includes(input)) {
-//             x[i].style.display="none";
-//         }
-//         else {
-//             x[i].style.display="list-item";                 
-//         }
-//     }
-// }
-
 function todosatores() {
     let input = document.getElementById('searchbar').value
     input=input.toLowerCase();
@@ -232,12 +233,33 @@ function todosatores() {
     
     }
 }
+/////////////////////////////////////////////////////////////////////////////////////
+console.log("👇Média numérica calculada")
+const guardamédia =  ((ator1.idade + ator2.idade+ator3.idade) / 3)
+console.log("O valor da média é ", (guardamédia))
 
 
+console.log("👇 Verificação de valores booleanos true impressa no console ")
+if (ator1.atuoucomosuperheroi === true) { /// verdadeira 
+    atores.push(ator1)
+    console.log(ator1)
+} else {
+    alert (ator1.nome  + " não atuou como super-heroi")
+}
+if (ator2.atuoucomosuperheroi === true) { ///falso
+     //atores.push(ator2)
+     console.log(ator2)
 
+} else {
+    alert (ator2.nome + " não atuou como super-heroi")
+}     
+if (ator3.atuoucomosuperheroi === true) {
+    atores.push (ator3)
+    console.log(ator3)
 
-
-
+} else {
+    alert (ator3.nome + " não atuou como super-heroi")
+}
 
 
 
