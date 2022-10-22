@@ -126,18 +126,24 @@ header{
 .Chris-Hemsworth,.Robert-Downey,.Tom-Cruise {
 display: flex;
 flex-direction: column;
-width: 70vw;
-height: 80vh;
-text-align: center;
+width: 80vw;
+height: 90vh;
+
 
 }
 main{
-height: 250vh;
+height: 320vh;
 }
 input{
     margin-bottom:5px; 
 }
+.textoator{
+    margin-top: 40px;
+    padding: 35px;
+    text-align: left center;
+    font-size: medium;
 
+}
 }
 
 
@@ -157,7 +163,7 @@ input{
     margin-bottom:5px; 
 }
 .textoator{
-    margin-top: 50px;
+    margin-top: 20px;
     padding: 30px;
 }
 
