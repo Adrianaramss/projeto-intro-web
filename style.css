@@ -108,9 +108,11 @@ li{               /*tirar pontos lista não ordenada*/
     margin-right: auto;
     border-radius: 21px;
     height: 220px;
-    
+
     
  }  
+
+
 
   /* responsabilidade */
 
@@ -125,7 +127,7 @@ header{
 display: flex;
 flex-direction: column;
 width: 70vw;
-height: 70vh;
+height: 80vh;
 text-align: center;
 
 }
@@ -156,7 +158,22 @@ input{
 }
 .textoator{
     margin-top: 50px;
-    padding: 27px;
+    padding: 30px;
 }
 
 }
+
+@media screen and (min-device-width: 100px) and (max-device-width: 320px) {
+    header{
+      width: 100%;
+      height: 10%;
+      
+    }
+    .Chris-Hemsworth,.Robert-Downey,.Tom-Cruise {
+        display: flex;
+        flex-direction: column;
+        width: 70vw;
+        height: 70vh;
+        text-align: center;
+        
+        }}
