@@ -23,7 +23,8 @@ const atuoucomosuperheroi3= true;
 
 // 3. Faça um cálculo de média, entre os valores numéricos respectivos de cada item.
 //  Imprima o valor da média utilizando um console.log. Guarde este valor em uma const;
-
+// const guardamédia =  ((ator1.idade + ator2.idade+ator3.idade) / 3)
+// console.log("O valor da média é ", (guardamédia))
 // 4. Com um console.log, imprima o resultado de uma operação lógica que checa se todos os 
 // valores de variáveis booleanas criadas até aqui são verdadeiras.
 
@@ -222,17 +223,22 @@ function todosatores() {
     let x = document.getElementsByClassName("todosatores");
       
     for (i = 0; i < x.length; i++) { 
-        if (!x[i].innerHTML.toLowerCase().includes(input)) {
+        if  (!x[i].innerHTML.toLowerCase().includes(input)) {
             x[i].style.display="none";
         }
         else {
-            x[i].style.display="block";                 
+            x[i].style.display="block";
         }
       
-
     
     }
+
 }
+
+    
+
+
+
 /////////////////////////////////////////////////////////////////////////////////////
 console.log("👇Média numérica calculada")
 const guardamédia =  ((ator1.idade + ator2.idade+ator3.idade) / 3)
