@@ -40,22 +40,21 @@ const atuoucomosuperheroi3= true;
 
 // 6. Exiba um relatório utilizando console.log(), mostrando todos os dados de cada um dos itens criados até aqui
 //   1. O log deve exibir o dado de nome, título ou afim sempre em LETRAS MAIÚSCULAS, como no exemplo abaixo.
-console.log("👇Relatório impresso no console ")
- console.log( nome1.toUpperCase())
- console.log ("idade:" +  idade1 )
- console.log ("Atuou como super-héroi?" + atuoucomosuperheroi1)
- console.log ("Filmes que Atuou?" + arrayfilmesqueparticipou1)
+//  console.log( nome1.toUpperCase())
+//  console.log ("idade:" +  idade1 )
+//  console.log ("Atuou como super-héroi?" + atuoucomosuperheroi1)
+//  console.log ("Filmes que Atuou?" + arrayfilmesqueparticipou1)
 
 
- console.log( nome2.toUpperCase())
- console.log ("idade:" +  idade2 )
- console.log ("Atuou como super-héroi?" + atuoucomosuperheroi2)
- console.log ("Filmes que Atuou?" + arrayfilmesqueparticipou2)
+//  console.log( nome2.toUpperCase())
+//  console.log ("idade:" +  idade2 )
+//  console.log ("Atuou como super-héroi?" + atuoucomosuperheroi2)
+//  console.log ("Filmes que Atuou?" + arrayfilmesqueparticipou2)
 
- console.log( nome3.toUpperCase())
- console.log ("idade:" +  idade3 )
- console.log ("Atuou como super-héroi?" + atuoucomosuperheroi3)
- console.log ("Filmes que Atuou?" + arrayfilmesqueparticipou1)
+//  console.log( nome3.toUpperCase())
+//  console.log ("idade:" +  idade3 )
+//  console.log ("Atuou como super-héroi?" + atuoucomosuperheroi3)
+//  console.log ("Filmes que Atuou?" + arrayfilmesqueparticipou1)
 
 //-----------------------semana2-------------------------------------------
 //============ Ator 1 =====================================
@@ -118,30 +117,31 @@ const atores = []  /// array para guardar objetos
 //1 e 2
 
 //============ Ator 1 =====================================
+console.log("👇Relatório impresso no console ")
 
-// for(let i in  ator1.arrayfilmesparticipou) {
-//     stringarrayfilmesparticipou = ator1.arrayfilmesparticipou.join()
-//    // console.log(stringarrayfilmesparticipou);
+for(let i in  ator1.arrayfilmesparticipou) {
+    stringarrayfilmesparticipou = ator1.arrayfilmesparticipou.join()
+   // console.log(stringarrayfilmesparticipou);
 
-//   }
-//    console.log(` Ator: ${ator1.nome} \n idade:${ator1.idade} \n atuou como Super-heroi? ${ator1.atuoucomosuperheroi} \n filmes que atuou:"${stringarrayfilmesparticipou}"`);
+  }
+   console.log(` Ator: ${ator1.nome} \n idade:${ator1.idade} \n atuou como Super-heroi? ${ator1.atuoucomosuperheroi} \n filmes que atuou:"${stringarrayfilmesparticipou}"`);
 
 //============ Ator 2 =====================================
 
-//    for(let i in  ator2.arrayfilmesparticipou) {
-//     stringarrayfilmesparticipou = ator2.arrayfilmesparticipou.join()
-//     //console.log(stringarrayfilmesparticipou);
+   for(let i in  ator2.arrayfilmesparticipou) {
+    stringarrayfilmesparticipou = ator2.arrayfilmesparticipou.join()
+    //console.log(stringarrayfilmesparticipou);
 
-//   }
-//    console.log(` Ator: ${ator2.nome} \n idade:${ator2.idade} \n atuou como Super-heroi? ${ator1.atuoucomosuperheroi} \n filmes que atuou:"${stringarrayfilmesparticipou}"`);
+  }
+   console.log(` Ator: ${ator2.nome} \n idade:${ator2.idade} \n atuou como Super-heroi? ${ator2.atuoucomosuperheroi} \n filmes que atuou:"${stringarrayfilmesparticipou}"`);
 
 //============ Ator 3 =====================================
 
-//    for(let i in  ator3.arrayfilmesparticipou) {
-//     stringarrayfilmesparticipou = ator3.arrayfilmesparticipou.join()
-//     //console.log(stringarrayfilmesparticipou);
-//   }
-//    console.log(` Ator: ${ator3.nome} \n idade:${ator3.idade} \n atuou como Super-heroi? ${ator1.atuoucomosuperheroi} \n filmes que atuou:"${stringarrayfilmesparticipou}"`);
+   for(let i in  ator3.arrayfilmesparticipou) {
+    stringarrayfilmesparticipou = ator3.arrayfilmesparticipou.join()
+    //console.log(stringarrayfilmesparticipou);
+  }
+   console.log(` Ator: ${ator3.nome} \n idade:${ator3.idade} \n atuou como Super-heroi? ${ator1.atuoucomosuperheroi} \n filmes que atuou:"${stringarrayfilmesparticipou}"`);
 
 // // 3. Crie uma função que receba como parâmetro um objeto, e devolva a
 // // string do relatório com os dados do objeto.
