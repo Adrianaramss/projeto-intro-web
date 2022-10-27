@@ -221,7 +221,7 @@ const atores = []  /// array para guardar objetos
 function todosatores() {
     let input = document.getElementById('searchbar').value
     input=input.toLowerCase();
-    let x = document.getElementsByClassName("todosatores");
+    let x = document.getElementsByClassName("atores");
       
     for (i = 0; i < x.length; i++) { 
         if  (!x[i].innerHTML.toLowerCase().includes(input)) {
@@ -233,6 +233,10 @@ function todosatores() {
       
     
     }
+
+if(input === "")
+alert("digite algo")
+
 
 }
 
