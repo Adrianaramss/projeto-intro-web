@@ -88,6 +88,11 @@ li{               /*tirar pontos lista não ordenada*/
     
  } 
 
+ .textoator a{
+text-decoration: none;
+color: black;
+ }
+
  .textoator {    /* configuração texto 1/2/3*/
     color: black;
     text-align: left;
