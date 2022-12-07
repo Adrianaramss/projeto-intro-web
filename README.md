@@ -15,9 +15,9 @@ Projeto introdução Web utilizando HTML, CSS e JavaScript. Página com responsi
 - Flex e Grid
 - DOM e responsividade
 
-# Imagens do site
+# Imagem do site
 
- imagen do site no  formado para desktop
+ imagem do site no  formado para desktop
  
 ![Captura de tela 2022-12-07 175434](https://user-images.githubusercontent.com/111310311/206293804-24393aa8-c5c0-49cc-9c72-622cdf3d37bf.png)
 
