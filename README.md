@@ -1,6 +1,6 @@
-# Projeto de Introdução ao desenvolvimento web
+# Projeto de Introdução Web
 
-Esse é o projeto de introdução aos fundamentos do desenvolvimento Web. Aqui, vamos praticar a estrutura do que faremos pelo curso todo. O objetivo é construir uma página estilizada, e com **lista** e **busca** utilizando manipulação de DOM, praticando o conteúdo do módulo com JS:
+Projeto introdução Web utilizando HTML, CSS e JavaScript. Página com responsividade e manipulação DOM para renderização a pesquisa dos atores.
 
 - Variáveis
 - Operadores
@@ -15,48 +15,20 @@ Esse é o projeto de introdução aos fundamentos do desenvolvimento Web. Aqui, 
 - Flex e Grid
 - DOM e responsividade
 
-## Enunciado
+# Imagens do site
 
-A página consiste em um HTML, ligado a um ou mais arquivos CSS, e um ou mais arquivos JS (recomendamos apenas um de cada, no entanto). O objetivo é conseguir criar uma página estática, depois estilizada, e por fim, dinâmica. A página vai catalogar (ou listar) itens que você escolher, e deve possuir um sistema simples de busca, que recebe um texto, e procura por nomes/títulos que correspondam a este texto.
+ imagen do site no  formado para desktop
+![Captura de tela 2022-12-07 175434](https://user-images.githubusercontent.com/111310311/206293804-24393aa8-c5c0-49cc-9c72-622cdf3d37bf.png)
+
+ imagem do site com responsividade exemplo em uma tela de tablet
+![Captura de tela 2022-12-07 175531](https://user-images.githubusercontent.com/111310311/206293846-cf662877-0638-439b-83af-aab2743adb65.png)
 
 
 
-[Exemplo](https://user-images.githubusercontent.com/11279432/180304632-97d6705d-100c-4272-8255-8aae19813700.mov)
+# Tecnologias utilizada
+[JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 
-
-
-### Lista de requisitos
-
-- [ ]  Tela de listagem com título
-- [ ]  Cabeçalho na página
-- [ ]  Área principal com barra de pesquisa e botão
-- [ ]  Espaço para lista dos itens
-- [ ]  ao menos três itens listados
-- [ ]  Itens listados **utilizando manipulação do DOM**
-- [ ]  Rodapé na página com identificação
-- [ ]  Barra de pesquisa com alerta se tentar pesquisar com campo em branco
-- [ ]  Clique do botão executa busca entre os itens
-- [ ]  Relatório impresso no console com as informações de cada item
-- [ ]  Nome/título dos itens em letras maiúsculas
-- [ ]  Média numérica calculada e impressa no console
-- [ ]  Verificação de valores booleanos true impressa no console
-- [ ]  Utilização de Grid ou Flex para estilizar
-- [ ]  Atenção ao padrão de estilização enviado
-
-### Instruções de entrega
-
-- Faça o fork desse repositório e realize o clone da sua cópia `seu-nome-de-usuario/projeto-intro-web`.
-   <details>
-   <summary>Quer uma dica?</summary>
-   <img src="https://firebasestorage.googleapis.com/v0/b/assets-conteudo.appspot.com/o/gerais%2Ffork.png?alt=media&token=7030e997-246a-41fe-a75f-2a2ced61e54d" alt="Como adicionar o projeto no repositório"/>
-   </details>
-- Crie os arquivos do projeto dentro deste repo;
-- Execute o fluxo de entrega do git. **Lembre-se de abrir os PRs para seu próprio repositório.**
-- Para isso, você precisará fazer o projeto utilizando **branches**. Evite fazer as alterações direto na branch ```main```
-    <details>
-       <summary>Dúvidas sobre o Git & Github?</summary>
-       <p>Adiciomos um vídeo explicando o <strong>processo de entrega</strong> [do fork ao pull request] no Material Assincrono da <a href="https://classroom.google.com/w/NTM0NjA2NDg3MjIx/tc/NTM2NDg5NTQyODg4">A005 - Git e Github</a>. Esse vídeo também exemplifica situações que podem acontecer durante o fluxo de utilização do Git.</p>
-    </details>
-- Entregue o **link do repo** no [Formulário de entrega](https://forms.gle/Q1mXTJFxwVUgUnrZA).
-
-**Opcional**: Tente utilizar o **Github pages** para fazer o deploy do seu projeto.
+#link so site
+https://adrianaramss.github.io/projeto-intro-web/
