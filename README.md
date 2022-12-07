@@ -2,18 +2,6 @@
 
 Projeto introdução Web utilizando HTML, CSS e JavaScript. Página com responsividade e manipulação DOM para renderização a pesquisa dos atores.
 
-- Variáveis
-- Operadores
-- Strings
-- Arrays
-- Objetos
-- Condicionais
-- Laços
-- Funções
-- Funções de Array
-- HTML e CSS
-- Flex e Grid
-- DOM e responsividade
 
 # Imagem do site
 
